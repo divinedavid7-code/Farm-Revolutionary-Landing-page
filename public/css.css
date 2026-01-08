@@ -1,5 +1,11 @@
+*{
+  margin-bottom: 10px;
+  padding: 0%;
+  text-decoration: none;
+}
+
 .body {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   padding-bottom: 0%;
   
 }
@@ -19,6 +25,95 @@
   margin-top: 20px;      /* auto only works in flex/grid */
 }
 
+.btn-primary {
+ font-family: 'Times New Roman';
+ width: 150px;
+ height: 40px;
+ background-color: black;
+ border: 1px solid #000;
+ margin-top: 13px;
+ color: #000;
+ border-right: none;
+ font-size: 16px;
+ float: orgini;
+ padding: 10px;
+ border-bottom-left-radius: 5px;
+ border-top-left-radius: 5px;
+ margin: auto;
+ justify-content: center;
+ text-decoration: none;
+padding-bottom: 1px; 
+outline: none;
+border: none;/* removes border too*/
+}
+
+.btn-primary2 {
+  width: 160px;
+  height: 40px;
+  background-color: rgb(4, 59, 4);
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+} 
+.btn-primary3 {
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: medium;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.btn-primary4 {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(116, 168, 116);
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: medium;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.btn-primary5 {
+  font-size: large;
+  color: greenyellow;
+}
+.btn-primary6 {
+  color: aliceblue;
+  size: 10px;
+}
+.btn-primary7 {
+  width: 250px;
+  height: 150px;
+  border: 1px;
+  border-radius: 1px;
+  background-color: rgb(236, 239, 241);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+ padding: auto;
+}
+
+
+
+
+
  .index2 {
    background-size: cover;
   background-repeat: no-repeat;
@@ -30,3 +125,20 @@
   margin-bottom: 100px;
 }
 
+
+.btn-primary9 {
+  width: 300px;
+  height: 700px;
+  padding: 20px;
+  color: rgb(5, 6, 5);
+  list-style: none;
+}
+.nav ul li {
+  padding: 500px;
+  width: 250px;
+  height: 700px;
+  color: rgb(41, 123, 123);
+  list-style: none;
+  text-decoration: double;
+  
+}
